@@ -2,9 +2,9 @@
 # (т.е. числа вида 2k), не превосходящие числа N.
 
 number_N = int(input("введите ваше число: "))
-degree_two = 1
-number_two = 2
-sum = 1
+degree_two = 1 # степень двойки
+number_two = 2 # само число 2
+sum = 1 # переменная в которой будет лежать результат возведения числа 2 в степень
 
 while sum < number_N:
     print(sum, end="; ")
