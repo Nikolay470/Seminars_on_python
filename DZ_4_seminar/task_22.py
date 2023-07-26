@@ -20,4 +20,5 @@ second_plenty = set([int(item) for item in second_spisok])
 general_elements = search_general_items(first_plenty, second_plenty)
 general_elements.sort()
 
-print(general_elements)
+print(*general_elements, sep = " ")
+
